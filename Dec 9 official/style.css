@@ -1,0 +1,23 @@
+.container{
+       background-color: lightblue;
+       height: 500px;
+       display: grid;
+       /* grid-template-columns: 200px auto 200px; */
+       /* grid-template-columns: auto auto auto auto; */
+       /* grid-template-columns: 1fq1fr);
+       /* place-content :center;*/
+       /* column-gap: 20px; */
+       /* row-gap: 30px; */
+       grid-gap: 30px 20px;
+}
+.box{
+   background-color: yellow;
+   border: 2px solid red;
+   /* margin:10px; */
+}
+.box9{
+    /* shorthand */
+    /* grid-column: 1/5; */
+     grid-column-start:1; 
+     grid-row-end:5 ; 
+}

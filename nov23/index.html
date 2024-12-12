@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    //post more sequare than get
+    <form action="demo.js" method="post">
+        <div>
+            <label for="msg">message</label><br>
+            <textarea id="msg"cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="vehicle">select cars</label>
+            <input type="text" id="vehicle" list="cars">
+            <datalist id="cars">
+                <option value="bmw"></option>
+                <option value="merchedes"></option>
+                <option value="tata"></option>
+                <option value="jaguar"></option>
+                <option value="tesla"></option>
+            </datalist>
+        </div>
+        <!--<button type="submit">send</button>-->
+        <input type="submit" value="send data">
+        <input type="reset" value="reset now">
+    </form>
+</body>
+</html>

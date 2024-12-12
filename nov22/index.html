@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="demo.js">
+        <div>
+            <label for="name">enter your name</label>
+            <input type="text" id="name" placeholder="enter name" value=""
+        </div>
+        <br>
+        <div>
+            <label for="email">enter your email</label>
+            <input type="email" id="email" placeholder="enter email"
+        </div>
+        <br>
+    </form>
+        <div>
+            <label for="pwd">enter password</label>
+            <input type="password"id="pwd" placeholder="enter password"
+        </div>
+        <br>
+        <div>
+            <label for="num">enter phone no</label>
+            <input type="number"id="num" placeholder="enter number"
+        </div>
+        <br>
+        <div>
+            <label for="dob">select your birth date</label>
+            <input type="date" id="dob"
+        </div>
+        <div>
+            <label for="gender">select gender</label>
+            <input type="radio" name="gender" id="male">male
+            <input type="radio" name="gender" id="female">female
+        </div>
+        <br>
+        <div>
+            <label for="age">are you eligible</label>
+            <input type="checkbox" id="age" value="eligible">
+        </div>
+        <br>
+        <div>
+            <label for="hobby">select hobbies</label>
+            <input type="checkbox" id="singing" value="singing">singing
+            <input type="checkbox" id="dance" value="dancing">dance
+            <input type="checkbox" id="sports" value="sports">sports
+        </div>
+        <br>
+        <div>
+            <label for="coures">select coures</label>
+            <select id="coures">
+                <option value="frontend">frontend</option>
+                <option value="backend">backend</option>
+                <option value="fulstack" selected>fullstack</option>
+            </select>
+        </div>
+        <button type="submit">send data</button>
+    </form>
+    
+</body>
+</html>

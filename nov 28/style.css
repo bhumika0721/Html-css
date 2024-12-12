@@ -1,0 +1,35 @@
+/*univarsal selector*/
+*{
+    margin:0;
+    padding:0;
+ 
+}
+/*id selector*/
+#myheading{
+    background-color: blueviolet;
+    color: aquamarine;
+}
+/*class selector*/
+.common{
+    background-color: brown;
+    color: aquamarine;
+}
+.diff{
+    font-size: 70px;
+}
+/*element selector*/
+/*h1{
+color: green;background-color:black;
+}
+
+/*nested selector*/
+div img{
+    width:100px;
+    height:90px;
+}
+/*multiple selector*/
+h1,
+p,
+.common{
+    text-align: center;
+}

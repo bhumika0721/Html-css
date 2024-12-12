@@ -1,0 +1,26 @@
+/*univarsal selector*/
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+/*id selector*/
+#myweb{
+    background-color: aqua;
+    color: bisque;
+}
+/*class selector*/
+.common{
+    background-color: blueviolet;
+    color: bisque;
+}
+.diff{
+    background-color:green;
+    color: blueviolet;
+}
+
+h1,
+p,
+.common{
+    text-align:center;
+}

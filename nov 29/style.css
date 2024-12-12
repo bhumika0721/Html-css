@@ -1,0 +1,36 @@
+body{
+   /* background-color: rgb(34, 58, 79);*/
+   /*alpha 0-1*/
+   /*background-color:rgba(38,0,167,1)*/
+   background-color: #c80707;
+}
+.mypara{
+    background-color: darkgoldenrod;
+    color: blue;
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 800;
+    /*uppercase,lowercase,capitalize*/
+    text-transform: capitalize;
+    letter-spacing:10px ;
+    word-spacing: 11px;
+    /*border properties*/
+    border-width: 10px;
+    /*silod,dotted,dashed*/
+    border-style: dotted;
+    border-color:green ;
+    /*shorthand*/
+    border:12px solid black;
+}
+.new{
+    border-top: 10px solid gold;
+    border-right: 10px dotted aqua;
+    border-left: 10px solid whitesmoke;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}

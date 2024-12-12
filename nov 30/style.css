@@ -1,0 +1,23 @@
+.container{
+    height:100vh;
+    background-image: url(/img1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+/*shorthand image repeat position size*/
+background: url(/img2.jpeg) no-repeat center center/ cover;
+}
+.box{
+    border: 10px solid red;
+    margin: 20px;
+    padding: 40px;
+    /*top/bottom left/ right
+    margin: 20px 40px ;*/
+    /*top right bottom left*/
+    /*margin:10px 20px 10px 20px ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;*/
+}

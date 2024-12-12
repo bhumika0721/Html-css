@@ -1,0 +1,14 @@
+body{
+    background-color: whitesmoke;
+    color: aliceblue;
+}
+div img{
+    width: 200px;
+    height: 200px;;
+}
+.user{
+    background-color: bisque;
+    color: coral;
+}
+
+
